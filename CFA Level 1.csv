@@ -1,0 +1,222 @@
+﻿Term,Definition
+nominal risk free rate equals... ,real risk free rate + expected inflation
+required interest rate on a security ,nominal risk free rate + default risk premium + liquidity premium + maturity risk premium
+EAR or APY ,(1+periodic rate)^m - 1 always higher than annual percentage rates (not compounded)
+ordinary annuity ,cash flows that occur at the end of each compounding period
+annuity due ,payments or receipts occur at the beginning of each period
+PV of Perpetuity ,Payment/interest rate
+Effect of increase in the frequency of compounding rates ,"increases FV, decreases PV"
+amortization schedule ,interest component = interest rate * beginning balance principal component = payment - interest component ending balance = period's beginning balance (last period's ending balance) - principal component
+holding period return ,(ending value-beginning value) / beginning value OR (Ending value / beginning value) - 1
+time-weighted rate of return ,The compound rate of growth of one unit of currency invested in a portfolio during a stated measurement period; a measure of investment performance that is not sensitive to the timing and amount of withdrawals or additions to the portfolio. Also a geometric mean return
+money weighted return ,IRR based on cash inflows and outflows
+Bank discount yield ,"RBD = D/F * 360/t Where: D = dollar discount from face value, F = face value, T = days until maturity, 360 = days in a year US T-Bills are quoted on a bank discount basis"
+holding period yield ,Holding Period Return = (ending value/beginning value) - 1 EAY^t/365 - 1 total return an investor earns between the purchase date and the sale or maturity date
+effective annual yield ,"EAY = (1 + HPY)^365/t - 1 where t is days to maturity. Remember that EAY > bank discount yield, for three reasons: (a) yield is based on purchase price, not face value, (b) it is annualized with compound interest (interest on interest), not simple interest, and (c) it is based on a 365-day year rather than 360 days. Be prepared to compare these two measures of yield and use these three reasons to explain why EAY is preferable."
+money market yield (Rmm) ,= HPR * (360/days until maturity)
+bond equivalent yield ,= Semiannual Yield * 2 semiannual yield needs to be compounded
+Descriptive statistics ,used to summarize the important characteristics of large data sets
+Inferential statistics ,"a sample, pertain to the procedures used to make forecasts, estimates or judgement about a large set of data"
+nominal scale / categorical ,"level of measurement with least information, observations are classified or counted with no particular order"
+ordinal scale ,"level of measurement, categorized with respect to specified characteristic"
+interval scale ,provides relative ranking like ordinal scale plus assurance that the difference between the scale values are equal e.g. temperature however measurement of 0 does not necessarily indicate the total absence of what we are measuring - e.g. 30 c is not three times as hot as 10 c
+ratio scale ,ratio scales provide ranking and equal difference between scale values and a true zero point as the origin e.g. measurement of money
+difference between parameter and sample statistic ,parameter is used for population sample statistic is used for sample
+modal interval ,"For any frequency distribution, the interval with the greatest frequency"
+relative frequency ,dividing the absolute frequency of reach return by the total number of observations
+mode ,"the value that occurs most frequently in a data set unimodal: one value that happens most frequent bimodal, trimodal: two or three values happen the most frequent"
+geometric mean ,"Compounded annual rate of return for an investment, harmonic mean < geometric mean < arithmetic mean = (X1 * X2 * X3 * Xn) ^1/n"
+harmonic mean ,N/[(1/X1)+(1/X2)+(1/X3)..etc.] *used for computations such as average cost of shares purchased over time--average price per share harmonic mean < geometric mean < arithmetic mean
+measures of location ,(n+1) * y/100
+mean absolute deviation ,average of the absolute values of the deviations of individual observations from the arithmetic mean
+"difference between population and sample variance, st. dev ",sample: denominator is n-1 n-1 makes it unbiased because using n will underestimate
+Chebyshev's Inequality ,"any set of observations (sample or population), the percentage of the observation that lie within k standard deviation of the mean is at least 1 -1/ (k^2)"
+relative dispersion measured by coefficient variation (CV) ,"relative dispersion is the amount of variability in a distribution relative to a reference point or benchmark measured by CV, lower the better CV = standard deviation / average value (arithmetic mean)"
+Sharpe Ratio ,"measures excess return per unit of risk, higher the petter =excess return / standard deviation where excess return = Rp-Rf"
+kurtosis ,"measure of the degree to which a distribution is more or less ""peaked"" than a normal distribution leptokurtic - more peaked, fatter tail platykurtic - less peaked, thinner tail mesokurtic - same kurtosis as normal distribution"
+sample skewness and sample kurtosis ,sample skewness - excess of .5 indicates significant levels of skewness sample kurtosis - excess of 1 are considered large excess kurtosis = sample kurtosis - 3
+use of arithemtic and geometric mean in investment return ,arithmetic better for estimate next year's return geometric mean is better for past performance
+random variable ,uncertain quantity/number
+outcome ,observed value of a random variable
+event ,single outcome or a set of outcomes
+exhaustive events ,events are those that include all possible outcomes
+empirical probability ,established by analyzing old data; objective probability
+a priori probability ,using a formal reasoning (e.g. deductive) and inspection process; objective probability
+subjective probability ,least formal method of developing probabilities
+unconditional (marginal probability) and conditional probability ,unconditional - regardless of past or future occurrence of other events conditional - what happen if something else happens
+joint probability P(AB) - multiplication rule ,probability that both will occur = P(AB) = P(A|B)*P(B)
+addition rule P(A or B) ,= P (A or B) = P (A) + P (B) - P (AB)
+joint probability of any number of independent events ,multiply the probability of the two independent events e.g. P (A or B) = P (A) * P (B)
+Total probability rule ,"P(A) = P(A l B₁)(P(B₁) + P(A l B₂)P(B₂) +....P(A l Bn)P(Bn) Unconditional probability of event, given conditional probabilities."
+covariance ,measure of how two assets move together = Cov (XY) = sum of E * [(X-E(X)] *[(Y-E(Y)] = Cov (XY) = sum of (probability of X AND Y) (st.dev.x) (st.dev.y)
+correlation coefficient ,covariance divided by the product of the random variables' standard deviations
+Bayes formula ,P(Event | Information) = (P(Information | Event) * P(Event)) / P(Information)
+labeling ,situation where there are n items that can each receive one of k different labels = (n!) / (n1!) * (n2!) * (n3!) * (nn!)
+combination formula ,a special case of labeling when there are only two categories; order doesnt matter nCr = (n!) / (n-r)!*r!
+permutation formula ,specific ordering of a group of objects nPr = (n!) / (n-r)!
+odds for and odds against ,Odds for = P (E) / (1- P(E)) Odds against = [1 - P(E)]/P(E)
+unique covariance terms in covariance calculation ,n(n-1) / 2
+discrete and continuous random variable ,"discrete can be counted, continuous can take up values between minus and plus infinity"
+cumulative distribution function ,computes probabilities less than or equal to a specified value = F (x)
+binomial random variable ,Variable may be defined as the number of successes in a given number of trials where the outcome can be either a success or failure
+bernoulli random variable ,"A binomial random variable for which the number of trials is 1; ""mini-experiment"""
+binomial probability ,if x has a binomial distribution with n observations an probability p of success on each observation: P(x = k) = (n! / (k! * (n-k)!)) * p^k * (1-p) ^(n-k)
+tracking error ,The difference between the total return on the portfolio and the total return on the benchmark against which its performance is measured
+continuous uniform distribution ,Distribution where probability of success is the area under the graph within a range defined by upper and lower limits
+multivariate distribution ,A probability distribution that specifies the probabilities for a group of related random variables.
+z-value ,(observed value - mean value) / standard deviation
+shortfall risk ,probability that a portfolio value will fall below a particular value over a given time period
+Roy's safety-first criterion ,optimal portfolio minimizes the probability that the return of the portfolio falls below some minimum acceptable level. (threshold level). SFR is the number of standard deviation below the mean. The portfolio with the larger SFR has the lower probability of returns below the threshold return = (E (Rp) - Rl ) / st.dev.p
+lognormal distribution ,generated by the function c^x where X is normally distributed. It's skewed to the right and is bounded from below by zero so that it is useful for modelling asset prices
+monte carlo simulation ,"a technique based on the repeated generation of one or more risk factors that affect the security values, in order to generate a distribution of security values"
+historical simulation ,is based on actual changes in value or actual changes in risk factors over some prior period
+effective annual rate (continuous) ,"= e^i - 1 for holding period return (HPR), the equivalent continuously compounded rate over the period is ln (1+HPR)"
+simple random sampling and systematic sampling ,simple random sampling: selecting a sample in such a way that each item or person in the population being studied has an equal change of being selected systematic sampling: selecting every n-th member from the population
+sampling error ,"difference between a sample statistic (mean, variance, st.dev.) and its corresponding population parameter"
+stratified random sampling ,uses a classification system to separate the population into smaller groups based on one or more distinguishing characteristics
+cross sectional data ,a sample of observation taken at a single point in time
+longitudinal data and panel data ,longitudinal: many characteristics of one entity panel: one characteristic for many entities
+central limit theorem ,"As the sample size increases, the sample becomes more normally distribute mean will be mu and variance will be variance divided by n"
+standard error of the sample mean ,"standard deviation of the distribution of the sample means , Standard deviation/sq rt (population size)"
+desirable properties of an estimator ,unbiased - EV of estimator should be equal to the parameter efficient - if the variance of the sampling distribution is smaller than all the other unbiased estimator of the parameter consistent - accuracy of the estimator increases as the sample size increases
+point estimate ,Single value that serves as an estimate of a population parameter confidence interval: range of values in which the population parameter is expected to lie
+t-distribution ,"A distribution specified by degrees of freedom used to model test statistics for the sample mean, differences between sample means, etc. where variance is unknown"
+confidence interval ,estimates result in a range of values within the actual value of a parameter given the probability 1-alpha (alpha: level of significance) 1-alpha: degree of confidence = point estimate +/- reliability factor * standard error
+look ahead bias ,a bias caused by using information that was unavailable on the test date
+time period bias ,time period over which data is gathered is too short or too long
+use Z or T score ,for NORMAL distribution: with KNOWN variance and sample >30: Z-test with KNOWN variance and sample <30: Z-test with UNKNOWN variance and sample >30: Z-test or T-test with UNKNOWN variance and sample <30: T-test for NONNORMAL distribution: with KNOWN variance and sample >30: Z-test with KNOWN variance and sample <30: none with UNKNOWN variance and sample >30: Z or T test with UNKNOWN variance and sample <30: none
+null hypothesis ,hypothesis that researcher wants to reject
+alternative hypothesis ,what is concluded if there is sufficient evidence to reject the null hypothesis
+test statistic ,"A value, determined from sample information, used to determine whether to reject the null hypothesis. = (sample mean - hypothesized mean) / st. error of sample mean"
+Type I and Type II Error ,Type I - rejection of null hypothesis when it is actually true Type II - failure to reject the null hypothesis when it is actually false
+significance level ,"possibility of making a Type I error, measured by alpha"
+power of a test ,probability of correctly rejecting the null hypothesis when it is false = 1 - P (type II error)
+chi square test ,"is used for hypothesis tests concerning the variance of a normally distributed population = ((n-1) * s^2) / sigma^2; where s= sample variance, sigma = population variance"
+F-test ,hypotheses concerned with the equality of the variances of two populations are tested with an F-distributed test statistic; makes the assumption that the population from which samples are drawn are normally distributed and the samples are independent = S1^2 / S2^2 or whichever produces the higher ratio
+parametric tests ,Rely on assumptions regarding the distribution of the population and are specific to population parameters
+non-parametric tests ,"measure qualitative attributes,characteristics, and catergories, data is nominal or ordinal., NOT based on population parameter"
+spearman rank correlation test ,-frequently used to describe the relationship between two ordinal (or one ordinal and one numerical) characteristic
+p-value ,the smallest significance level for which the hypothesis would be rejected
+point and figure charts ,A technical analysis chart that is constructed with columns of X's alternating with columns of O's such that the horizontal axis represents only the number of changes in price without reference to time or volume.
+change in polarity ,when support becomes resistance and vice versa
+reversal patterns ,a trend approaches a range of prices but fails to continue beyond that range e.g. head and shoulders pattern; double top and triple top patterns
+continuation patterns ,"suggest a pause in a trend rather than a reversal; ""healthy correction"" e.g. triangle (long term), pennant (short term), rectangle"
+contrarian strategy ,one that buys when most traders are selling and selling when most traders are buying - related to bollinger bands
+oscillator ,used to show how much a variable diverge from a certain value
+rate of change oscillator ,"Also called momentum oscillator, measures difference in change in price vs price n periods ago"
+relative strength index ,A technical momentum indicator that compares the magnitude of recent gains to recent losses in an attempt to determine overbought and oversold conditions of an asset.
+moving average convergence divergence ,A technical analysis tool that takes the difference between two moving averages and then generates a smoothed moving average on the difference (the divergence) between the two moving averages.
+stochastic oscillator ,"Calclated from the latest closing price and highest and lowest prices reached in a recent period, such as 14 day"
+put call ratio ,The Put-Call Ratio is the number of put options traded divided by the number of call options traded in a given period. High number means bearish.
+margin debt ,"higher debt means bullish, lower debt means bearish"
+short interest ,the number of shares investors have borrowed and sold short
+Arms index OR short term trading index (TRIN) ,(number of advancing issues / number of declining issues) / (volume of advancing issues / volume of declining issues) value above 1 means that there is more volume in declining stocks value below 1 means that most trading activity is in rising stocks
+Elliott wave ,"a theory that the market moves in regular, repeated waves or cycles. 5 up and 3 down or 5 down and 3 up ratios converge to .618 and 1.618 as number gets larger"
+Kondratieff wave ,A 54-year long economic cycle postulated by Nikolai Kondratieff.
+percentile calculation ,(n+1) * y/100
+semivariance ,similar to Sample Variance but only including observations less than or equal to the arithmetic mean use TOTAL (n-1) in denominator
+variance of binomial ,np(1-p)
+target of head and shoulderr ,for inverted: neckline + (neckline - head) for normal: neckline - (head - neckline)
+decennial pattern of cycles ,years ending in a 5 will have the best performance of any of the 10 years in a decade and ones that end with 0 will have worst
+data snooping ,"Using multiple analyses to find significance and then publishing the results. ""torturing the data until they confess"""
+descriptive v. inferential statistics ,"descriptive- summarizes important characteristics of large data sets while inferential- pertain to procedures used to make forecasts, estimates, and judgements on the basis of a smaller set (sample)"
+population ,set of all possible members of a stated group; example- cross-section of the returns of all of stocks traded on the NYSE
+sample ,subset of the population of interest
+nominal scales ,"nominal scales-least accurate level of measurement; counted or classified with no order; example assigning number 1 to a municipal bond fund, the number 2 to a corp bond fun, and so on"
+ordinal scales ,"every observation is assigned to one of several categories, which are then ordered with respect to a specified characteristic; -example -the ranking of 1,000 small cap growth stocks by performance may be done by assigning the number 1 to the 100 best performing stocks, the number 2 to the next 100 best performing stocks, and so on"
+interval scale ,"provide relative ranking, like ordinal, but differences between scale values are equal (like temperature); WEAKNESS: 30 degrees F is not 3x as hot as 10 degrees F (called zero point as the origin) like ratio scales"
+Ratio scales ,"provide ranking and equal diff b/t scale values and have a true zero point as the origin so $4 is 2x as much as $2; think NOIR - nominal, ordinal, interval, ratio"
+parameter ,characteristic of a population such as the mean return or the SD of returns
+sample statistic ,used to measure a characteristic of a sample
+frequency distribution ,"summarizes statistical data by assigning it to specified groups, or intervals"
+intervals ,aka classes
+how to construct a frequency distribution ,1. Define the intervals to which data measurements (observations) will be assigned. Make sure all are mutually exclusive. 2. Tally the observations 3. Count them and find the interval with the greatest frequency called the modal interval Example- annual returns on a stock
+modal interval ,interval with the greatest absolute frequency
+relative frequency ,percentage of total observations falling within each interval
+cumulative absolute frequency or cumulative relative frequency ,all the frequencies added up in order; relative means percentage-wise
+histogram ,graphical representation of the absolute frequency distribution; bar chart of continuous data classified into a frequency distribution
+frequency polygon ,"shape of the histogram with just a line like a line graph; however, the line intersects the midpoints"
+measures of central tendency ,"identify the center, or average, of a data set, which can be used to represent the typical, or expected, value in the data set"
+population mean ,mean of all observed values in the population; it's unique so that means there's only one mean
+sample mean ,mean of all the values in a sample of a population; used to make inferences about the population
+"unimodal, bimodal, trimodal ",unimodal- means there's one value that appears most frequently; bimodal- two values that appear most frequently
+harmonic mean ,average cost of shares over a certain period of time
+mean absolute deviation MAD ,"average of the absolute values of the deviations of individual observations from the arithmetic mean; calculating SD, basically"
+biased estimator ,systematic underestimation cuases the sample variance to be referred to as a biased estimator of the population variance
+Chebyshev's inequality ,minimum percentage of any distribution that will lie within a certain SD of the mean; 1-(1/k)^2
+Limitations of the Sharpe ratio ,"if 2 portfolios have negative sharpe ratios, the higher one isn't necessarily superior because increasing risk moves a negative Sharpe ratio closer to zero 2. if asymmetic return distributions, not normal"
+kurtosis ,measure of how much a distribution is more or less peaked than a normal distribution
+Leptokurtic v. platykurtic v. mesokurtic ,lepto-more peaked or sharper! v. platy - less peaked or flatter! and meso- the same!!
+how are kutosis and skewness useful and why? ,"they are critical in a risk management setting because when securities returns are modeled using an assumed normal distribution, the predictions from the models will not take into account for the potential for extremely large, negative outcomes;"
+which is generally riskier? higher or lower skewness? kurtosis? ,"in general, greater positive kurtosis and more negative skew in returns distributions indicates increased risk"
+Sample skewness ,sum of the cubed deviations from the mean divided by the cubed SD and by the number of observations
+when is skewness signficant? ,when S k is in excess of 0.5
+how to find excess kurtosis? ,excess kurtosis = sample kurtosis - 3
+sample kurtosis ,measured using deviations raised to the fourth power
+empirical probability ,established by analyzing past data
+a priori probability ,"determined using a formal reasoning and inspection process; example ""Yesterday, 24 of the 30 DJIA stocks increased in value. Thus, if 1 of the 30 stocks is selected at random, there is an 80% (= 24 /30) probability that its value increased yesterday."""
+subjective probability ,"least formal method-> uses personal judgement; ""It is my personal feeling that the probability the DJIA will close higher tomorrow is 90%."""
+how to state the probability of an event in terms of odds for or against an event ,"if the Probability was 1/8, then do this: (1/8) / (1-1/8)= (1/8)/(7/8) = 1/7; the odds for the event occurring is one-to-seven"
+unconditional probability (or marginal probability) v. conditional probability ,"unconditional means that a probability of an event regardless of the past or future occurrence of other events; example: if we are concerned with the prob. of an economic recession, regardless of the occurrence of changes in interest rates or inflation"
+multiplication rule of prob. v. addition rule of probability ,multiplication- used to determine the joint probability of two events P(A IB) X P(B) v. determining the probability that at least one of two events will occur P(A) + P(B) P(AB)
+total probability rule ,"used to determine the unconditional probability of an event, given conditional probabilities"
+joint probability ,of two events is the probability that they will both occur; use the multiplication rule of prob. to find out
+correlation ,"measures the strength of the linear relationship between two random variables., ranging from -1 to +1"
+Bayes' formula ,used to update a given set of prior probabilities for a given event in response to the arrival of new information; (prob. of new info for given event/unconditional prob. of new info)*prior prob. of event
+labeling ,situation where there are n items that can each receive one of k different labels
+permutation formula ,specific ordering of a group of objects; n!/(n-r)!
+combination formula ,n!/ (n-r)!r!
+when to use factorial? ,when there are no groups
+when to use the labeling formula? ,when there are 3 or more subgroups of predetermined size
+when to use the combination formula? ,when there are only 2 groups of predetermined size; look for the word choose or combination
+when to use the permutation formula? ,when there are only 2 groups of predetermined size; look for a specific reference to order being important
+data mining bias ,from repeatedly doing tests on the same data sample
+sample selection bias ,sample not really random
+survivorship bias ,"sampling only surviving firms, mutual funds, hedge funds"
+look-ahead bias ,using info not available at the time to construct sample
+time-period bias ,relationship exists only during the time period of sample data
+Type I Error ,rejecting Ho when its actually true; the significance level is probability of Type I error
+Type II Error ,failing to reject Ho when it's actually false; power of test is 1-prob. of type II error
+difference in means test ,"for independent samples, determine if the differences are too large in terms of SD or standard errors"
+mean differences test ,"dependent samples and equal sized samples, take the average differences between both samples and see if it's statistically different from 0 (b/c that would mean that it's equal if close to 0)"
+test of the variance ,test of whether the variance of a normal population equals some hypothesized value
+parametric tests ,"based on assumptions about population distributions and populations parameters (e.g. t-test, z-test, F-Test)"
+Nonparametric tests ,"make few if any assumptions about the population distribution and test things other than parameter values (e.g. runs tests, rank correlation tests)"
+Measurement Scales ,"N Nominal ""O"" Ordinal ""I"" Interval ""R"" Ratio"
+Population Mean Formula ,
+Sample Mean Formula ,
+Weighted Mean Formula ,Used when calculating portfolio return.
+Geometric Mean Formula ,Used when calculating investment returns over multiple periods (TWM) or when measuring compound growth rates. Harmonic < Geometric < Arithmetic
+Geometric Mean Return Formula ,
+Harmonic Mean Formula ,Used to compute average cost of shares purchased over time. Harmonic < Geometric < Arithmetic
+Position of a percentile in an array with n entries ,
+Mean Absolute Deviation Formula (MAD) ,
+Population Variance Formula ,
+Population Standard Deviation Formula ,
+Sample Variance Formula ,
+Sample Standard Deviation Formula ,
+Coefficient of Variation Formula ,Measures risk (variability) per unit of expected return (mean). Higher CV is riskier.
+Sharpe Ratio Formula ,R(p) = portfolio return R(f) = risk-free return S(p) = standard deviation of portfolio returns
+Chebyshev's Inequality ,"For any distribution with finite variance, the proportion of the observations within k standard deviations of the arithmetic mean is at least 1-1/k^2 for all k>1"
+Dispersion ,Measures the variability around the central tendency (mean). Addresses risk.
+Skewness ,the extent to which a distribution is not symmetrical.
+Left Skewed Distribution ,
+Right Skewed Distribution ,
+Kurtosis ,Statistical measure that tells us when a distribution is more or less peaked than a normal distribution. Kurtosis = 3 for normal distributions.
+Leptokurtic distribution ,A distribution that is more peaked than a normal distribution. Kurtosis > 3 (excess kurtosis > 0)
+Platykurtic distribution ,A distribution that is less peaked than a normal distribution. Kurtosis < 3 (excess kurtosis < 0)
+Mesokurtic ,A distribution identical to the normal distribution.
+Positive skew ,mean>median
+Positive skew ,median>mode
+Positive skew ,asymmetry with longer tail on right
+Positive skew ,
+Negative skew ,median>mean
+Negative skew ,mode>median
+Negative skew ,Asymmetry with longer tail on left
+Negative skew ,
+Measures of central tendency ,Mean Median Mode
+Measures of distribution ,Range Variance Standard deviation Standard error (deviation) of the mean
+Standard deviation ,1 SD: 68.2% 2 SD: 95% 3 SD: 99%
+Skew ,Is where the tail is
+Right Skewed ,Mode>Mean> Median Skewness value: Positive Tail: R>L Most Data: on the Left Mean: Close to tail Mode: Away from tail
+Left Skewed ,Mode<Mean<Median Skewness value: Negative Tail: L>R Most Data: on the Right Mean: Close to tail Mode: Away from tail
