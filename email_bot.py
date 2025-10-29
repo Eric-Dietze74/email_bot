@@ -33,10 +33,13 @@ msg["From"] = os.getenv("EMAIL_USER")
 msg["To"] = os.getenv("EMAIL_USER")
 msg.set_content(full_message)
 
+EMAIL_USER = os.getenv("EMAIL_USER")
+EMAIL_PASS = os.getenv("EMAIL_PASS")
+
 # Send email securely
 with smtplib.SMTP("smtp.gmail.com", 587) as server:
     server.starttls()
-    server.login(os.getenv("EMAIL_USER"), os.getenv("EMAIL_PASS"))
+    server.login(EMAIL_USER, EMAIL_PASS)
     server.send_message(msg)
 
 print("Email sent successfully.")
