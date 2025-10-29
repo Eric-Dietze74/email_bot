@@ -6,10 +6,13 @@ on:
   workflow_dispatch:       # allows manual trigger
 
 jobs:
-  send-email:
+  send_email:
     runs-on: ubuntu-latest
+    env:
+      EMAIL_USER: ${{ secrets.EMAIL_USER }}
+      EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -22,6 +25,4 @@ jobs:
 
       - name: Run email bot
         run: python email_bot.py
-        env:
-          EMAIL_USER: ${{ secrets.EMAIL_USER }}
-          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+
