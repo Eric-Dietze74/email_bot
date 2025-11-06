@@ -24,7 +24,7 @@ questions_text = "\n\n".join([f"{i+1}. {q}" for i, q in enumerate(questions[term
 answers_text = "\n\n".join([f"{i+1}. {a}" for i, a in enumerate(questions[definition])])
 
 # Combine sections with spacing
-full_message = f"{questions_text}\n\n\n\n{answers_text}"
+full_message = f"{questions_text}\n\n\n\n\n\n\n\n\n{answers_text}"
 
 # Email setup
 msg = EmailMessage()
