@@ -31,7 +31,7 @@ full_message = f"{questions_text}\n\n\n\n\n\n\n\n\n{answers_text}"
 
 # Email setup
 msg = EmailMessage()
-msg["Subject"] = today + "CFA Quiz"
+msg["Subject"] = "CFA Quiz " + today
 msg["From"] = os.getenv("EMAIL_USER")
 msg["To"] = os.getenv("EMAIL_USER")
 msg.set_content(full_message)
