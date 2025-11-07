@@ -3,6 +3,9 @@ import smtplib
 from email.message import EmailMessage
 import pandas as pd
 import random
+from datetime import date
+
+today = str(date.today())
 
 # Number of questions that will be sent in email
 number_of_questions = 5
@@ -28,7 +31,7 @@ full_message = f"{questions_text}\n\n\n\n\n\n\n\n\n{answers_text}"
 
 # Email setup
 msg = EmailMessage()
-msg["Subject"] = "CFA Quiz"
+msg["Subject"] = today + "CFA Quiz"
 msg["From"] = os.getenv("EMAIL_USER")
 msg["To"] = os.getenv("EMAIL_USER")
 msg.set_content(full_message)
